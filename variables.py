@@ -47,3 +47,12 @@ print(name[0:3])
 print(name[-7:-4])
 print(name[-4:-6])
 print(name[-5:])
+
+############
+
+firstLetters = name[0] + middlename[0] + lastname[0]
+print(firstLetters)
+
+company = 'nbinfo'
+email = (name) + '.' + lastname + '@' + company + '.com.br'
+print(email)
